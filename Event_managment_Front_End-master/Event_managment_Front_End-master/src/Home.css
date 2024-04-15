@@ -1,0 +1,117 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  background-image: url('C:\Users\Amaan Sajid\OneDrive\Desktop\tutorial\event_management\public\photo-1540039155733-5bb30b53aa14.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ContentContainer {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ButtonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tittle {
+  font-family: Georgia;
+  font-size: 40px;
+  color: #000000;
+}
+
+.subtittle {
+  font-size: 24px;
+  color: #000000;
+}
+
+.ViewEventButton,
+.PlanEventButton {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.ViewEventButton:hover,
+.PlanEventButton:hover {
+  text-decoration: underline;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.24),
+    0 13px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 768px) {
+  /* Styles for devices with a maximum width of 768px (e.g., tablets and mobile devices) */
+  
+  .ContentContainer {
+    margin-top: 5vh;
+  }
+  
+  .tittle {
+    font-size: 30px;
+  }
+  
+  .subtittle {
+    font-size: 18px;
+  }
+}
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navLeft {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 23px;
+  font: small-caps bold 25px/1 sans-serif;
+  /* padding-bottom: 10px; */
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.navRight {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+}
+
+.navRight li {
+  font-size: 15px;
+  margin-left: 15px;
+  padding: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navRight li:hover {
+  color: #bd2e2e;
+  text-decoration: underline;
+}

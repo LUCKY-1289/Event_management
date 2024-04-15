@@ -1,0 +1,143 @@
+.post-page {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.post-form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.post-preview {
+  flex: 1;
+}
+
+.post-container {
+  text-align: center;
+}
+
+.post-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+h2{
+  font-size: large;
+  font-family: poppins;
+  color: #ff0000;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #bd2e2e;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #a82424;
+}
+
+.post-feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.post {
+  width: 400px; /* Adjust the container width as desired */
+  height: 500px; /* Adjust the container height as desired */
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post:hover {
+  transform: scale(1.1);
+}
+
+.post.selected {
+  transform: scale(1.1);
+  border-color: #bd2e2e;
+}
+
+.post img {
+  width: 100%;
+  height: 70%; /* Adjust the picture height as desired */
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post-details {
+  text-align: left;
+  padding: 10px;
+}
+
+.post-details h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.post-details p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comment {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.comment-form {
+  margin-top: 10px;
+}
+
+.comment-form input {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.comment-form button {
+  padding: 5px 10px;
+  background-color: #bd2e2e;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.comment-form button:hover {
+  background-color: #a82424;
+}

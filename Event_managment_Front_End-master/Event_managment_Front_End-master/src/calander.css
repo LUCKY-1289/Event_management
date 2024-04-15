@@ -1,0 +1,99 @@
+.bookingForm,
+.bookedEvents,
+.calendarContainer{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.calendarContainer h2{
+  font-size: large;
+}
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navLeft {
+  color: #e61a1a;
+  font-weight: bold;
+  font-size: 23px;
+  font: small-caps bold 25px/1 sans-serif;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.navRight {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+}
+
+.navRight li {
+  font-size: 15px;
+  margin-left: 15px;
+  padding: 20px;
+  color: #000000;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navRight li:hover {
+  color: #bd2e2e;
+  text-decoration: underline;
+}
+
+.bookingForm {
+  margin-top: 20px;
+
+}
+
+.bookingForm input,
+.bookingForm textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.bookingForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bookingForm button {
+  background-color: #bd2e2e;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.bookingForm h2{
+  font-size: larger;
+}
+
+.bookedEvents {
+  margin-top: 20px;
+}
+
+.bookedEvents ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.bookedEvents li {
+  margin-bottom: 5px;
+}
+
+.calendarContainer {
+  margin-top: 40px;
+}
+.bookedEvents h2{
+  font-size: large;
+}

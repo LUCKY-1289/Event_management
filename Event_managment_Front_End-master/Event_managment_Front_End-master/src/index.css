@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login-page-container {
+  background-image: url('C:\Users\Amaan Sajid\OneDrive\Desktop\tutorial\event_management\public\mahindra-university-photo-1595582111.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.auth-form-container {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 43px;
+  padding-bottom: 30px;
+  background-color: #5a1d1d;
+  border-radius: 8px;
+  box-shadow: 30px 30px 30px 30px rgba(8, 1, 1, 0.2);
+  text-align: center;
+  opacity: 0.9;
+}
+
+.form-title {
+  font-size: 30px;
+  margin-bottom: 8px;
+  color: #e4dada;
+}
+
+.email{
+  color: rgb(255, 255, 255);
+}
+
+.password{
+  color: #e9e7e7;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #a70505;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-login {
+  padding: 10px 20px;
+  background-color: #8a2d33;
+  color: #d7d6d6;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 4px #ac0000 ;
+}
+
+.link-btn {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #2e0707;
+  cursor: pointer;
+}
+
+.guntha{
+  color: #e9e7e7;
+}
+
+.heavy{
+  color: #e4dada;
+}
+
+.full{
+  color: #e4dada;
+}
